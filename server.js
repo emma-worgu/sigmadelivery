@@ -31,7 +31,7 @@ const loginRoute = require('./Routes/admin');
 const app = express();
 const port = process.env.PORT || 5000;
 const corsOption = {
-  origin: ['http://localhost:3000', 'https://sigmadelivery-frontend.pages.dev', 'https://sladatransport.com', 'https://topdovelogistics.online'],
+  origin: ['http://localhost:3000', 'https://sigmadelivery-frontend.pages.dev', 'https://sladatransport.com', 'https://topdovelogistics.online', 'https://globateesla.site/'],
 };
 
 app.use(bodyParser.urlencoded({ extended: false }));
